@@ -16,7 +16,7 @@
 
 *::selection{
     background:var(--red);
-    color:#333;
+    color:#3F51B5;
 }
 
 html{
@@ -29,7 +29,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:#00003B;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    background:#00002B;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -49,7 +49,7 @@ section{
 
 .btn {
     padding:.7rem 3rem;
-    background:#333;
+    background:#3F51B5;
     color:#fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -58,7 +58,7 @@ section{
 }
 .btn_resume{
     color:#fff;
-    background-color: #333;
+    background-color: #3F51B5;
     font-size: 1.5rem;
 }
 .btn_resume:hover{
@@ -94,7 +94,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background:#00003B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +135,7 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.0rem 0;
-    background:#333;
+    background:#3F51B5;
     color:#fff;
     font-size: 1.5rem;
     border-radius: 5rem;
@@ -148,7 +148,7 @@ header .navbar ul li a:hover{
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background:#333;
+    background:#3F51B5;
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -219,7 +219,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box{
     width:20rem;
-    background:#222;
+    background:#00004B;
     text-align: center;
     padding: 2rem;
     margin:2rem;
@@ -254,7 +254,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span{
     font-size: 1.3rem;
-    background:#222;
+    background: #00004B;
     color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
@@ -335,7 +335,7 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
+    background: #3F51B5;
     color:#fff;
     text-transform: none;
     font-size: 1.7rem;
@@ -386,7 +386,7 @@ header .navbar ul li a:hover{
 .bt{
     font-size: 20px;
     padding: 8px;
-    background-color: #222;
+    background-color: #00004B;
     color: white;
     border-radius: 8px;
     margin-left: 25px;
@@ -538,7 +538,9 @@ header .navbar ul li a:hover{
   }
 
 
-
+::placeholder{
+    color: white;
+}
 
 
 
@@ -614,7 +616,7 @@ header .navbar ul li a:hover{
     .bt{
         font-size: 18px;
         padding: 8px;
-        background-color: #222;
+        background-color: #00004B;
         color: white;
         border-radius: 8px;
         margin-left: 25px;
@@ -684,7 +686,7 @@ header .navbar ul li a:hover{
     .bt{
         font-size: 10px;
         padding: 8px;
-        background-color: #222;
+        background-color: #00004B;
         color: white;
         border-radius: 8px;
         margin-left: 25px;

@@ -2,11 +2,326 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shubham Kumar Portfolio</title>
+
+    <!-- --font awesome cdn link--- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <!--css file link -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    hithub portpolio
+    
+<!-- navbar section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="images/profilePhoto.png" alt="">
+        <h3 class="name">Shubham Kumar</h3>
+        <p class="post">Node Backend Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a onclick="myfun()" download="" href="Shubham-Kumar-Resume.pdf"><button class="btn_resume"> Resume</button></a></li>
+            
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+
+<section class="home" id="home">
+
+    <h3>Hi there !</h3> <span><img id="hii" src=""></span>
+    <h1>I am <span>Shubham Kumar</span></h1>
+    <p>An aspiring backend developer specialized in Node. 
+        Who always love to learn new things. Good problem solver and quick learner. 
+        Possess strong leadership qualities and looking farward to an exciting oppertunity and development experience.
+    </p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- about section starts  -->
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Shubham Kumar </h3>
+        <h3> <span> age : </span> 22 </h3>
+        <!-- <h3> <span> qualification : </span> 12th </h3> -->
+        <h3> <span> post : </span> Node Backend Developer </h3>
+        <h3> <span> language : </span> Hindi/English </h3>
+        <a href="Shubham-Kumar-Resume.pdf" download=""><button class="btn"> Download Resume <i class="fas fa-download"></i> </button></a>
+        <a href="https://www.linkedin.com/in/shubham-kumar-92928a244/" target="_blank"><button class="btn">LinkedIn </button></a>
+        <a href="https://github.com/shubhamprakash911" target="_blank"><button class="btn">GitHub</button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>3+</span>
+            <h3>project completed</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section id="skills">
+        
+    <h2 style="Text-align:center;margin-top:70px ;color:#FF5252;font-size: 50px;">Skills</h2>
+    <div class="dskill">
+
+      <div>
+        <h2>Back End Development</h2>
+        <h4>Node | MongoDb | MySQL</h4>
+        <div class="container">
+          <div class="skills css">85%</div>
+        </div>
+
+      </div>
+
+      <div>
+
+        <h2>Front End Development</h2>
+        <h4>HTML | CSS | JavaScript</h4>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+
+      </div>
+
+      <div>
+
+        <h2>DSA And Algorithms</h2>
+        <h4>Array | Stack | Queue | LinkedList</h4>
+        <div class="container">
+          <div class="skills css">80%</div>
+        </div>
+
+      </div>
+
+      <div>
+
+        <h2>Communication Skills</h2>
+        <h4>Team Management | Team Collaboration | Time
+          Management | Decision Making</h4>
+        <div class="container">
+          <div class="skills css">70%</div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="skills section" id="techStack">
+    <h2 class="section-title"> Teck Stack</h2>
+
+    <div class="skills-container">
+
+
+    </div>
+  </section>
+
+<!-- education section ends -->
+
+<section class="education" id="education">
+
+    <h1 class="heading"> my <span>education</span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023</span>
+            <h3>Full Stack Web Development</h3>
+            <p>Masai School</p>
+        </div>
+    
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020-Present</span>
+            <h3>Bachlors Of Arts</h3>
+            <p>IGNOU</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>12th </h3>
+            <p>CBSE</p>
+        </div>
+    
+        
+    
+    </div>
+    
+    </section>
+
+    <!-- portfolio section starts -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> my <span>projects</span> </h1>
+    
+    <div id="project-box">
+    
+        <div class="box-project">
+            <div class="image-div-project">
+                <img src="./images/Screenshot (145).png" alt="">
+            </div>
+            <div class="text-div-project">
+                <h1>Eat And Repeat</h1>
+                <h3>Blue Apron is an American meal kit delivery service that provides customers with pre-portioned ingredients and recipes to prepare meals at home. The project was 
+                    completed within four days.</h3>
+                <h3 style="margin-top: 10px;">Teck Stack : HTML | CSS | JavaScript</h3>
+                <a href="https://github.com/shubhamprakash911/amazing-neck-7006.git" target="_blank"><button class="bt">GitHub</button></a>
+                <a href="https://sprightly-halva-0a6823.netlify.app" target="_blank"><button class="bt">Live</button></a>
+                
+            </div>
+        </div>
+    
+        <div class="box-project">
+            <div class="image-div-project">
+                <img src="images/Screenshot (147).png" alt="">
+            </div>
+            <div class="text-div-project">
+                <h1></h1>
+                <h3>It is an eCommerce website for clothing and accessories. The project was 
+                    completed within five days. There were a team of four members. My task was to 
+                    create the cart page of the website and main section of landing page.</h3>
+                <h3 style="margin-top: 10px;">Teck Stack : HTML | CSS | JavaScript</h3>
+                <a href="https://github.com/Sonu598/festive-lake-9492.git" target="_blank"><button class="bt">GitHub</button></a>
+                <a href="https://preeminent-twilight-7f6b32.netlify.app" target="_blank"><button class="bt">Live</button></a>
+            </div>
+        </div>
+    
+       
+    </div>
+    
+    </section>
+    
+    <!-- portfolio section ends -->
+
+    <div>
+
+        <h1 class="heading" style="margin-bottom: 40px;" > GitHub <span>Graph</span> </h1>
+
+        <div class="calendar" style="color: white;">
+            Loading the Data...
+        </div>
+        <div class="staticsGit" style="margin-top: 25px;">
+
+             <source 
+                  srcset="https://github-readme-stats.vercel.app/api?username=shubhamprakash911&show_icons=true"
+                  media="(prefers-color-scheme: dark)"
+                /> 
+                <img class="w-100" src="https://github-readme-stats.vercel.app/api?username=shubhamprakash911&show_icons=true" />
+
+                <source 
+                  srcset="https://github-readme-streak-stats.herokuapp.com/?user=shubhamprakash911"
+                  media="(prefers-color-scheme: dark)"
+                /> 
+                <img class="w-100" src="https://github-readme-streak-stats.herokuapp.com/?user=shubhamprakash911" />
+          
+        
+        </div>
+    </div>
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+    
+    <div class="row">
+    
+        <div class="content">
+    
+            <h3 class="title">contact info</h3>
+    
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> shubhamkumaar77@gmail.com </h3>
+                <h3> <i class="fas fa-phone"></i> 8810498199 </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Delhi </h3>
+                <a href="https://www.linkedin.com/in/shubham-kumar-92928a244/" target="_blank" ><button class="btn">LinkedIn </button></a>
+                <a href="https://github.com/shubhamprakash911" target="_blank"><button class="btn">GitHub</button></a>
+            </div>
+    
+        </div>
+    
+        <form action="">
+    
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="text" placeholder="project" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+    
+        </form>
+    
+    </div>
+    
+    </section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+<!-- custom js file link  -->
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+
+<script src="script.js"></script>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<script>
+    GitHubCalendar(".calendar", "shubhamprakash911");
+    GitHubCalendar(".calendar", "shubhamprakash911", { responsive: true });
+</script>
+
 </body>
 </html>

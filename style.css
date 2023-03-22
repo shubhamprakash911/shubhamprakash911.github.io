@@ -121,17 +121,17 @@ header .user .post{
     color:#eee;
 }
 
-header .navbar{
+header #nav-menu{
     width:90%;
 }
 
-header .navbar ul{
+header #nav-menu ul{
     list-style: none;
     padding:1rem 1rem;
 }
 
 
-header .navbar ul li a{
+header #nav-menu ul li a{
     display: block;
     padding:1rem;
     margin:1.0rem 0;
@@ -141,7 +141,7 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 
-header .navbar ul li a:hover{
+header #nav-menu ul li a:hover{
     background:var(--red);
 }
 
@@ -157,28 +157,28 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-.home{
+#home{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
 }
 
-.home h3{
+#home h3{
     font-size: 2.5rem;
     color:#fff;
 }
 
-.home h1{
+#home h1{
     font-size:5rem;
     color:#fff;
 }
 
-.home h1 span{
+#home h1 span{
     color:var(--red);
 }
 
-.home p{
+#home p{
     font-size:2rem;
     color:#eee;
     padding: 1rem 0;
@@ -561,7 +561,7 @@ header .navbar ul li a:hover{
         font-size: 55%;
     }
 
-    .home{
+    #home{
         padding:1rem 4rem;
     }
 

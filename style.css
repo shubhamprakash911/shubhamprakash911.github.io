@@ -542,6 +542,11 @@ header #nav-menu ul li a:hover{
     color: white;
 }
 
+.githubStats{
+    display: block;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -588,6 +593,13 @@ header #nav-menu ul li a:hover{
     display: grid;
     grid-template-columns: repeat(2, 200px);
     gap: 30px;
+}
+
+.githubStats{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 }
@@ -674,12 +686,12 @@ header #nav-menu ul li a:hover{
         color: #eee;
         font-size: 8px;
     }
-    .staticsGit{
+    /* .staticsGit{
         margin-top: 10px;
         margin-left: 5%;
         width: 50%;
         
-    }
+    } */
     .box-project{
         display: block; 
     }

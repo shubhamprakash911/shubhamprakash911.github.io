@@ -145,18 +145,6 @@ header #nav-menu ul li a:hover{
     background:var(--red);
 }
 
-#menu{
-    position: fixed;
-    top:2rem; right:2rem;
-    background:#3F51B5;
-    color:#fff;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding:1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-}
-
 #home{
     display: flex;
     justify-content: center;

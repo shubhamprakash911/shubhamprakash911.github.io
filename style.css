@@ -652,7 +652,7 @@ header #nav-menu ul li a:hover{
  
  }
 
-@media (max-width:425px){
+@media (max-width:500px){
 
     header{
         width: 100vw;
@@ -699,7 +699,7 @@ header #nav-menu ul li a:hover{
         
     } */
     .project-card{
-        display: block; 
+        display: block;  
     }
     .bt{
         font-size: 10px;
@@ -737,5 +737,6 @@ header #nav-menu ul li a:hover{
         margin: auto;
         
       }
+
    
 }

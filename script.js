@@ -38,6 +38,11 @@ $(document).ready(function(){
   });
 
 
+  function resume(){
+    window.open("Shubham-Kumar-Resume.pdf","_blank")
+  }
+
+
   function myfun(){
     return window.open('https://drive.google.com/file/d/16b2rKUBCcU2RIcbe2KjKlvM4OPHfvf4-/view?usp=share_link','_blank');
   }

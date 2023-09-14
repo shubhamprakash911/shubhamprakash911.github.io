@@ -36,33 +36,33 @@
   box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 204, 46, 0.3) 10px 10px;
   box-shadow: rgba(46, 111, 240, 0.4) 5px 5px, rgba(46, 137, 240, 0.3) 10px 10px;
 }
-.orangefrybg {
-  background: url(../Images/ProjectsImgs/orangefry.jpg);
+.eatandrepeatebg {
+  background: url(../Images/ProjectsImgs/EatAndRepeate/eatandrepeate.png);
   background-size: cover;
 }
 
-.mycalbg {
-  background: url(../Images/ProjectsImgs/mycal.jpg);
+.foodiefoobg {
+  background: url(../Images/ProjectsImgs/FoodiefooImg/foodiefoo.png);
   background-size: cover;
 }
-.acelegalservice {
-  background: url(../Images/ProjectsImgs/acelegal.png);
+.apnacliqbg {
+  background: url(../Images/ProjectsImgs/Apnacliq/apnacliq.png);
   background-size: cover;
 }
 
-.stylezillabg {
-  background: url(../Images/ProjectsImgs/stylezilla.jpg);
+.techieshopbg {
+  background: url(../Images/ProjectsImgs/techieshop.png);
   background-size: cover;
 }
 .placemebg {
   background: url(../Images/ProjectsImgs/placeme.png);
   background-size: cover;
 }
-.orangefrybg:hover,
+.eatandrepeatebg:hover,
 .placemebg:hover,
-.stylezillabg:hover,
-.acelegalservice:hover,
-.mycalbg:hover {
+.techieshopbg:hover,
+.apnacliqbg:hover,
+.foodiefoobg:hover {
   background-position: bottom;
 }
 

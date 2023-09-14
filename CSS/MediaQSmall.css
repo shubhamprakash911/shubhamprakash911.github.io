@@ -137,7 +137,7 @@
   .navbar-toggler:focus {
     box-shadow: none !important;
   }
-  #kunalimg {
+  #shubhamimg {
     width: 100%;
     height: 400px;
   }
@@ -530,13 +530,13 @@
 
 /*todo ----------------------------Small Screen Sizes -------------------------------- */
 @media all and (min-width: 650px) and (max-width: 809px) {
-  #kunalimg {
+  #shubhamimg {
     height: 800px;
   }
 }
 /*todo ----------------------------Small Screen Sizes -------------------------------- */
 @media all and (min-width: 500px) and (max-width: 650px) {
-  #kunalimg {
+  #shubhamimg {
     height: 600px;
   }
 }

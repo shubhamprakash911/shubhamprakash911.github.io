@@ -6,10 +6,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-/* div,
-section {
-  border: 1px solid red;
-} */
+
 :root {
   --theme: rgb(255, 255, 255);
   --fontColor: rgb(0, 0, 0);
@@ -173,6 +170,7 @@ section {
 .HeadLetter {
   cursor: pointer;
   transition: all 300ms ease;
+  font-size: 4.5rem;
 }
 .HeadLetter:nth-child(1):hover {
   color: rgb(236, 9, 9);
@@ -203,6 +201,12 @@ section {
 }
 .HeadLetter:nth-child(10):hover {
   color: rgb(184, 17, 17);
+}
+.HeadLetter:nth-child(11):hover {
+  color: rgb(17, 36, 184);
+}
+.HeadLetter:nth-child(12):hover {
+  color: rgb(175, 238, 57);
 }
 @keyframes movingbg1 {
   0% {

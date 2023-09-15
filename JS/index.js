@@ -53,7 +53,7 @@ window.addEventListener("scroll", () => {
 //? <!----------------------------------------------- < Resume> ----------------------------------------------->
 
 function resume() {
-  window.open("shubham-kumar-resume.pdf", "_blank");
+  window.open("Shubham-Kumar-Resume.pdf", "_blank");
 }
 
 //? <!----------------------------------------------- < Repo Redirect> ----------------------------------------------->

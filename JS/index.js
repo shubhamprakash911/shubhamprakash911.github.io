@@ -7,7 +7,7 @@ shubham `;
 let gitloadercal = document.getElementById("gitcalendar");
 window.addEventListener("load", function () {
   brandbg.innerHTML = `🔵 Shubham `;
-  GitHubCalendar(".calendar", "shubhamprakash911", { responsive: true });
+  new GitHubCalendar(".calendar", "shubhamprakash911", { responsive: true });
 });
 
 function TopButtonFunction() {
@@ -53,21 +53,23 @@ window.addEventListener("scroll", () => {
 //? <!----------------------------------------------- < Resume> ----------------------------------------------->
 
 function resume() {
-  window.open("Kunal-Mehra-Resume.pdf", "_blank");
+  window.open("shubham-kumar-resume.pdf", "_blank");
 }
 
 //? <!----------------------------------------------- < Repo Redirect> ----------------------------------------------->
 Repo1.addEventListener("click", () => {
-  window.open("https://github.com/KunalMehra075/OrangeFryFrontend");
+  window.open("https://github.com/shubhamprakash911/Techie-Shop");
 });
 Repo2.addEventListener("click", () => {
-  window.open("https://github.com/KunalMehra075/MyCal.com-Frontend");
+  window.open(
+    "https://github.com/shubhamprakash911/PetMate-Appointment-Booking-System"
+  );
 });
 Repo3.addEventListener("click", () => {
-  window.open("https://github.com/Tanishka-22/KK-Kushwah");
+  window.open("https://github.com/shubhamprakash911/FoodieFoo");
 });
 Repo4.addEventListener("click", () => {
-  window.open("https://github.com/KunalMehra075/obscene-icicle-4134 ");
+  window.open("https://github.com/shubhamprakash911/Apnacliq.com");
 });
 
 brandbg.addEventListener("click", (e) => {

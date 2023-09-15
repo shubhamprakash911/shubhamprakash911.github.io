@@ -37,7 +37,6 @@
 }
 
 #BestRepoParent {
-  /* box-shadow: var(--github_boxshadow); */
   border-radius: 5px;
 }
 
@@ -56,7 +55,6 @@
 #BestRepos > img:hover {
   border-radius: 5px;
   scale: 1.01;
-  /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 2px; */
 }
 #github-streak-stats {
   border-radius: 5px;
